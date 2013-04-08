@@ -212,13 +212,9 @@ body {
   color: rgba(255, 255, 255, 0.9);
   background-color: #003f4d;
 }
-a {
-  color: #e8d069;
-  text-decoration: none;
+a { color: #e8d069; text-decoration: none; 
 }
-a:hover {
-  color: #e8d069;
-  text-decoration: underline;
+a:hover { color: #e8d069; text-decoration: underline; 
 }
 .img-rounded {
   -webkit-border-radius: 6px;
@@ -624,7 +620,7 @@ h2,
 h3 {
   line-height: 40px;
 }
-h1 { font-size: 38.5px; color: #093; 
+h1 { font-size: 38.5px; color: #FFF; 
 }
 h2 {
   font-size: 31.5px;
