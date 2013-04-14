@@ -51,16 +51,16 @@
             <li>
               <a href="india.php">India News</a> 
             </li>
-            <li>
+            <li class="active">
               <a href="world.php">World News</a> 
             </li>
             <li>
-              <a href="moblie.php">Mobile</a> 
+              <a href="mobile.php">Mobile</a> 
             </li>
             <li>
               <a href="programming.php">Programming</a> 
             </li>
-            <li class="active">
+            <li >
               <a href="design.php">Design</a> 
             </li>
             <li class="pull-left">
@@ -81,9 +81,9 @@
       <div class="row main-features">
         <div class="span4">
           <div class="well well-large" autocomplete="off">
-            <h3>Technology1</h3>
+            <h3>NBC News World News</h3>
             <p><?php        
-$userid = 'technology1'; //your handle
+$userid = 'NBCNewsWorld'; //your handle
 $count = '10';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -109,15 +109,15 @@ foreach ($response as $tweet) {
 } 
 echo '</ul>';
 ?></p>
-            <a class="btn pull-right btn-primary" href="#" data-reveal-id="technology1">Read More<br></a>       
+            <a class="btn pull-right btn-primary" href="#" data-reveal-id="NBCNewsWorld">Read More<br></a>       
             
         </div>
         </div>
         <div class="span4">
           <div class="well well-large" autocomplete="off">
-            <h3>Technology2</h3>
+            <h3>ABC World News</h3>
             <p><?php        
-$userid = 'technology2'; //your handle
+$userid = 'ABCWorldNews'; //your handle
 $count = '10';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -143,14 +143,14 @@ foreach ($response as $tweet) {
 } 
 echo '</ul>';
 ?></p>
-            <a class="btn pull-right btn-primary" href="#" data-reveal-id="technology2">Read More<br></a>
+            <a class="btn pull-right btn-primary" href="#" data-reveal-id="ABCWorldNews">Read More<br></a>
           </div>
         </div>
         <div class="span4">
           <div class="well well-large" autocomplete="off">
-<h3>Technology3</h3>
+<h3>Post World News </h3>
             <p><?php        
-$userid = 'technology3'; //your handle
+$userid = 'PostWorldNews'; //your handle
 $count = '10';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -176,16 +176,16 @@ foreach ($response as $tweet) {
 } 
 echo '</ul>';
 ?></p>
-            <a class="btn pull-right btn-primary" href="#" data-reveal-id="technology3">Read More<br></a>
+            <a class="btn pull-right btn-primary" href="#" data-reveal-id="PostWorldNews">Read More<br></a>
           </div>
         </div>
         
 <div style="clear:both" > </div>
 		<div class="span4">
           <div class="well well-large" autocomplete="off">
-<h3>Technology4</h3>
+<h3>FT World News</h3>
             <p><?php        
-$userid = 'technology4'; //your handle
+$userid = 'FTworldnews'; //your handle
 $count = '10';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -211,15 +211,15 @@ foreach ($response as $tweet) {
 } 
 echo '</ul>';
 ?></p>
-            <a class="btn pull-right btn-primary" href="#" data-reveal-id="technology4">Read More<br></a>
+            <a class="btn pull-right btn-primary" href="#" data-reveal-id="FTworldnews">Read More<br></a>
           </div>
         </div>
         
         <div class="span4">
           <div class="well well-large" autocomplete="off">
-<h3>Technology5</h3>
+<h3>BBC News (World)</h3>
             <p><?php        
-$userid = 'technology5'; //your handle
+$userid = 'BBCWorld'; //your handle
 $count = '10';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -245,15 +245,15 @@ foreach ($response as $tweet) {
 } 
 echo '</ul>';
 ?></p>
-            <a class="btn pull-right btn-primary" href="#" data-reveal-id="technology5">Read More<br></a>
+            <a class="btn pull-right btn-primary" href="#" data-reveal-id="BBCWorld">Read More<br></a>
           </div>
         </div>
         
         <div class="span4">
           <div class="well well-large" autocomplete="off">
-<h3>Technology6</h3>
+<h3>Reuters Top News</h3>
             <p><?php        
-$userid = 'technology6'; //your handle
+$userid = 'Reuters'; //your handle
 $count = '10';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -279,7 +279,7 @@ foreach ($response as $tweet) {
 } 
 echo '</ul>';
 ?></p>
-            <a class="btn pull-right btn-primary" href="#" data-reveal-id="technology6">Read More<br></a>
+            <a class="btn pull-right btn-primary" href="#" data-reveal-id="Reuters">Read More<br></a>
           </div>
         </div>
         
@@ -329,10 +329,10 @@ echo '</ul>';
 
 
 
-  <div id="technology1" class="reveal-modal textColor">
-			<h1>Technology1</h1>
+  <div id="NBCNewsWorld" class="reveal-modal textColor">
+			<h1>NBC News World News</h1>
 			<p><?php        
-$userid = 'technology1'; //your handle
+$userid = 'NBCNewsWorld'; //your handle
 $count = '50';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -361,10 +361,10 @@ echo '</ul>';
 			
 </div>
 
-<div id="technology2" class="reveal-modal textColor">
-			<h1>Technology2</h1>
+<div id="ABCWorldNews" class="reveal-modal textColor">
+			<h1>ABC World News</h1>
 			<p><?php        
-$userid = 'technology2'; //your handle
+$userid = 'ABCWorldNews'; //your handle
 $count = '50';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -394,10 +394,10 @@ echo '</ul>';
 </div>
 
 
-<div id="technology3" class="reveal-modal textColor">
-			<h1>Technology3</h1>
+<div id="PostWorldNews" class="reveal-modal textColor">
+			<h1>Post World News </h1>
 			<p><?php        
-$userid = 'technology3'; //your handle
+$userid = 'PostWorldNews'; //your handle
 $count = '50';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -426,10 +426,10 @@ echo '</ul>';
 			
 </div>
 
-<div id="technology4" class="reveal-modal textColor">
-			<h1>Technology4</h1>
+<div id="FTworldnews" class="reveal-modal textColor">
+			<h1>FT World News</h1>
 			<p><?php        
-$userid = 'technology4'; //your handle
+$userid = 'FTworldnews'; //your handle
 $count = '50';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -458,10 +458,10 @@ echo '</ul>';
 			
 </div>
 
-<div id="technology5" class="reveal-modal textColor">
-			<h1>Technology5</h1>
+<div id="BBCWorld" class="reveal-modal textColor">
+			<h1>BBC News (World)</h1>
 			<p><?php        
-$userid = 'technology5'; //your handle
+$userid = 'BBCWorld'; //your handle
 $count = '50';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -490,10 +490,10 @@ echo '</ul>';
 			
 </div>
 
-<div id="technology6" class="reveal-modal textColor">
-			<h1>Technology6</h1>
+<div id="Reuters" class="reveal-modal textColor">
+			<h1>Reuters Top News</h1>
 			<p><?php        
-$userid = 'technology6'; //your handle
+$userid = 'Reuters'; //your handle
 $count = '50';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 

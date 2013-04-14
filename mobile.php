@@ -54,13 +54,13 @@
             <li>
               <a href="world.php">World News</a> 
             </li>
-            <li>
-              <a href="moblie.php">Mobile</a> 
+            <li class="active">
+              <a href="mobile.php">Mobile</a> 
             </li>
             <li>
               <a href="programming.php">Programming</a> 
             </li>
-            <li class="active">
+            <li >
               <a href="design.php">Design</a> 
             </li>
             <li class="pull-left">
@@ -81,9 +81,9 @@
       <div class="row main-features">
         <div class="span4">
           <div class="well well-large" autocomplete="off">
-            <h3>Technology1</h3>
+            <h3>GSMArena.com</h3>
             <p><?php        
-$userid = 'technology1'; //your handle
+$userid = 'gsmarena_com'; //your handle
 $count = '10';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -109,15 +109,15 @@ foreach ($response as $tweet) {
 } 
 echo '</ul>';
 ?></p>
-            <a class="btn pull-right btn-primary" href="#" data-reveal-id="technology1">Read More<br></a>       
+            <a class="btn pull-right btn-primary" href="#" data-reveal-id="gsmarena_com">Read More<br></a>       
             
         </div>
         </div>
         <div class="span4">
           <div class="well well-large" autocomplete="off">
-            <h3>Technology2</h3>
+            <h3>Android Headlines</h3>
             <p><?php        
-$userid = 'technology2'; //your handle
+$userid = 'Androidheadline'; //your handle
 $count = '10';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -143,14 +143,14 @@ foreach ($response as $tweet) {
 } 
 echo '</ul>';
 ?></p>
-            <a class="btn pull-right btn-primary" href="#" data-reveal-id="technology2">Read More<br></a>
+            <a class="btn pull-right btn-primary" href="#" data-reveal-id="Androidheadline">Read More<br></a>
           </div>
         </div>
         <div class="span4">
           <div class="well well-large" autocomplete="off">
-<h3>Technology3</h3>
+<h3>All iPhone</h3>
             <p><?php        
-$userid = 'technology3'; //your handle
+$userid = 'iPhoneTeam'; //your handle
 $count = '10';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -176,16 +176,16 @@ foreach ($response as $tweet) {
 } 
 echo '</ul>';
 ?></p>
-            <a class="btn pull-right btn-primary" href="#" data-reveal-id="technology3">Read More<br></a>
+            <a class="btn pull-right btn-primary" href="#" data-reveal-id="iPhoneTeam">Read More<br></a>
           </div>
         </div>
         
 <div style="clear:both" > </div>
 		<div class="span4">
           <div class="well well-large" autocomplete="off">
-<h3>Technology4</h3>
+<h3>Windows Phone</h3>
             <p><?php        
-$userid = 'technology4'; //your handle
+$userid = 'windowsphone'; //your handle
 $count = '10';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -211,15 +211,15 @@ foreach ($response as $tweet) {
 } 
 echo '</ul>';
 ?></p>
-            <a class="btn pull-right btn-primary" href="#" data-reveal-id="technology4">Read More<br></a>
+            <a class="btn pull-right btn-primary" href="#" data-reveal-id="windowsphone">Read More<br></a>
           </div>
         </div>
         
         <div class="span4">
           <div class="well well-large" autocomplete="off">
-<h3>Technology5</h3>
+<h3>BlackBerry</h3>
             <p><?php        
-$userid = 'technology5'; //your handle
+$userid = 'BlackBerry'; //your handle
 $count = '10';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -245,15 +245,15 @@ foreach ($response as $tweet) {
 } 
 echo '</ul>';
 ?></p>
-            <a class="btn pull-right btn-primary" href="#" data-reveal-id="technology5">Read More<br></a>
+            <a class="btn pull-right btn-primary" href="#" data-reveal-id="BlackBerry">Read More<br></a>
           </div>
         </div>
         
         <div class="span4">
           <div class="well well-large" autocomplete="off">
-<h3>Technology6</h3>
+<h3>Engadget Mobile</h3>
             <p><?php        
-$userid = 'technology6'; //your handle
+$userid = 'engadgetmobile'; //your handle
 $count = '10';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -279,7 +279,7 @@ foreach ($response as $tweet) {
 } 
 echo '</ul>';
 ?></p>
-            <a class="btn pull-right btn-primary" href="#" data-reveal-id="technology6">Read More<br></a>
+            <a class="btn pull-right btn-primary" href="#" data-reveal-id="engadgetmobile">Read More<br></a>
           </div>
         </div>
         
@@ -329,10 +329,10 @@ echo '</ul>';
 
 
 
-  <div id="technology1" class="reveal-modal textColor">
-			<h1>Technology1</h1>
+  <div id="gsmarena_com" class="reveal-modal textColor">
+			<h1>GSMArena.com</h1>
 			<p><?php        
-$userid = 'technology1'; //your handle
+$userid = 'gsmarena_com'; //your handle
 $count = '50';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -361,10 +361,10 @@ echo '</ul>';
 			
 </div>
 
-<div id="technology2" class="reveal-modal textColor">
-			<h1>Technology2</h1>
+<div id="Androidheadline" class="reveal-modal textColor">
+			<h1>Android Headlines</h1>
 			<p><?php        
-$userid = 'technology2'; //your handle
+$userid = 'Androidheadline'; //your handle
 $count = '50';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -394,10 +394,10 @@ echo '</ul>';
 </div>
 
 
-<div id="technology3" class="reveal-modal textColor">
-			<h1>Technology3</h1>
+<div id="iPhoneTeam" class="reveal-modal textColor">
+			<h1>All iPhone</h1>
 			<p><?php        
-$userid = 'technology3'; //your handle
+$userid = 'iPhoneTeam'; //your handle
 $count = '50';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -426,10 +426,10 @@ echo '</ul>';
 			
 </div>
 
-<div id="technology4" class="reveal-modal textColor">
-			<h1>Technology4</h1>
+<div id="windowsphone" class="reveal-modal textColor">
+			<h1>Windows Phone</h1>
 			<p><?php        
-$userid = 'technology4'; //your handle
+$userid = 'windowsphone'; //your handle
 $count = '50';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -458,10 +458,10 @@ echo '</ul>';
 			
 </div>
 
-<div id="technology5" class="reveal-modal textColor">
-			<h1>Technology5</h1>
+<div id="BlackBerry" class="reveal-modal textColor">
+			<h1>BlackBerry</h1>
 			<p><?php        
-$userid = 'technology5'; //your handle
+$userid = 'BlackBerry'; //your handle
 $count = '50';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -490,10 +490,10 @@ echo '</ul>';
 			
 </div>
 
-<div id="technology6" class="reveal-modal textColor">
-			<h1>Technology6</h1>
+<div id="engadgetmobile" class="reveal-modal textColor">
+			<h1>Engadget Mobile</h1>
 			<p><?php        
-$userid = 'technology6'; //your handle
+$userid = 'engadgetmobile'; //your handle
 $count = '50';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 

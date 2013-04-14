@@ -55,18 +55,18 @@
               <a href="world.php">World News</a> 
             </li>
             <li>
-              <a href="moblie.php">Mobile</a> 
+              <a href="mobile.php">Mobile</a> 
             </li>
             <li>
               <a href="programming.php">Programming</a> 
             </li>
-            <li class="active">
+            <li >
               <a href="design.php">Design</a> 
             </li>
             <li class="pull-left">
               <a href="development.php">Development</a> 
             </li>
-            <li>
+            <li  class="active">
               <a href="quotes.php">Quotes</a> 
             </li>
           </ul>
@@ -81,9 +81,9 @@
       <div class="row main-features">
         <div class="span4">
           <div class="well well-large" autocomplete="off">
-            <h3>Technology1</h3>
+            <h3>Relatable Quotes</h3>
             <p><?php        
-$userid = 'technology1'; //your handle
+$userid = 'SoTrue__Quotes'; //your handle
 $count = '10';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -109,15 +109,15 @@ foreach ($response as $tweet) {
 } 
 echo '</ul>';
 ?></p>
-            <a class="btn pull-right btn-primary" href="#" data-reveal-id="technology1">Read More<br></a>       
+            <a class="btn pull-right btn-primary" href="#" data-reveal-id="SoTrue__Quotes">Read More<br></a>       
             
         </div>
         </div>
         <div class="span4">
           <div class="well well-large" autocomplete="off">
-            <h3>Technology2</h3>
+            <h3>Great Minds Quotes</h3>
             <p><?php        
-$userid = 'technology2'; //your handle
+$userid = 'GreatestQuotes'; //your handle
 $count = '10';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -143,14 +143,14 @@ foreach ($response as $tweet) {
 } 
 echo '</ul>';
 ?></p>
-            <a class="btn pull-right btn-primary" href="#" data-reveal-id="technology2">Read More<br></a>
+            <a class="btn pull-right btn-primary" href="#" data-reveal-id="GreatestQuotes">Read More<br></a>
           </div>
         </div>
         <div class="span4">
           <div class="well well-large" autocomplete="off">
-<h3>Technology3</h3>
+<h3>Inspiring Quotes!</h3>
             <p><?php        
-$userid = 'technology3'; //your handle
+$userid = 'AdmireMyQuote'; //your handle
 $count = '10';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -176,16 +176,16 @@ foreach ($response as $tweet) {
 } 
 echo '</ul>';
 ?></p>
-            <a class="btn pull-right btn-primary" href="#" data-reveal-id="technology3">Read More<br></a>
+            <a class="btn pull-right btn-primary" href="#" data-reveal-id="AdmireMyQuote">Read More<br></a>
           </div>
         </div>
         
 <div style="clear:both" > </div>
 		<div class="span4">
           <div class="well well-large" autocomplete="off">
-<h3>Technology4</h3>
+<h3>Love Quotes</h3>
             <p><?php        
-$userid = 'technology4'; //your handle
+$userid = 'LoveQuotes'; //your handle
 $count = '10';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -211,15 +211,15 @@ foreach ($response as $tweet) {
 } 
 echo '</ul>';
 ?></p>
-            <a class="btn pull-right btn-primary" href="#" data-reveal-id="technology4">Read More<br></a>
+            <a class="btn pull-right btn-primary" href="#" data-reveal-id="LoveQuotes">Read More<br></a>
           </div>
         </div>
         
         <div class="span4">
           <div class="well well-large" autocomplete="off">
-<h3>Technology5</h3>
+<h3>Great Film Quotes</h3>
             <p><?php        
-$userid = 'technology5'; //your handle
+$userid = 'GreatFilmsQuote'; //your handle
 $count = '10';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -245,15 +245,15 @@ foreach ($response as $tweet) {
 } 
 echo '</ul>';
 ?></p>
-            <a class="btn pull-right btn-primary" href="#" data-reveal-id="technology5">Read More<br></a>
+            <a class="btn pull-right btn-primary" href="#" data-reveal-id="GreatFilmsQuote">Read More<br></a>
           </div>
         </div>
         
         <div class="span4">
           <div class="well well-large" autocomplete="off">
-<h3>Technology6</h3>
+<h3>Psychology Quotes</h3>
             <p><?php        
-$userid = 'technology6'; //your handle
+$userid = 'QuotePsychology'; //your handle
 $count = '10';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -279,7 +279,7 @@ foreach ($response as $tweet) {
 } 
 echo '</ul>';
 ?></p>
-            <a class="btn pull-right btn-primary" href="#" data-reveal-id="technology6">Read More<br></a>
+            <a class="btn pull-right btn-primary" href="#" data-reveal-id="QuotePsychology">Read More<br></a>
           </div>
         </div>
         
@@ -329,10 +329,10 @@ echo '</ul>';
 
 
 
-  <div id="technology1" class="reveal-modal textColor">
-			<h1>Technology1</h1>
+  <div id="SoTrue__Quotes" class="reveal-modal textColor">
+			<h1>Relatable Quotes</h1>
 			<p><?php        
-$userid = 'technology1'; //your handle
+$userid = 'SoTrue__Quotes'; //your handle
 $count = '50';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -361,10 +361,10 @@ echo '</ul>';
 			
 </div>
 
-<div id="technology2" class="reveal-modal textColor">
-			<h1>Technology2</h1>
+<div id="GreatestQuotes" class="reveal-modal textColor">
+			<h1>Great Minds Quotes</h1>
 			<p><?php        
-$userid = 'technology2'; //your handle
+$userid = 'GreatestQuotes'; //your handle
 $count = '50';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -394,10 +394,10 @@ echo '</ul>';
 </div>
 
 
-<div id="technology3" class="reveal-modal textColor">
-			<h1>Technology3</h1>
+<div id="AdmireMyQuote" class="reveal-modal textColor">
+			<h1>Inspiring Quotes!</h1>
 			<p><?php        
-$userid = 'technology3'; //your handle
+$userid = 'AdmireMyQuote'; //your handle
 $count = '50';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -426,10 +426,10 @@ echo '</ul>';
 			
 </div>
 
-<div id="technology4" class="reveal-modal textColor">
-			<h1>Technology4</h1>
+<div id="LoveQuotes" class="reveal-modal textColor">
+			<h1>Love Quotes</h1>
 			<p><?php        
-$userid = 'technology4'; //your handle
+$userid = 'LoveQuotes'; //your handle
 $count = '50';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -458,10 +458,10 @@ echo '</ul>';
 			
 </div>
 
-<div id="technology5" class="reveal-modal textColor">
-			<h1>Technology5</h1>
+<div id="GreatFilmsQuote" class="reveal-modal textColor">
+			<h1>Great Film Quotes</h1>
 			<p><?php        
-$userid = 'technology5'; //your handle
+$userid = 'GreatFilmsQuote'; //your handle
 $count = '50';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 
@@ -490,10 +490,10 @@ echo '</ul>';
 			
 </div>
 
-<div id="technology6" class="reveal-modal textColor">
-			<h1>Technology6</h1>
+<div id="QuotePsychology" class="reveal-modal textColor">
+			<h1>Psychology Quotes</h1>
 			<p><?php        
-$userid = 'technology6'; //your handle
+$userid = 'QuotePsychology'; //your handle
 $count = '50';
 $responseJson = file_get_contents('http://api.twitter.com/1/statuses/user_timeline.json?screen_name='.$userid.'&include_rts=1&count='.$count);
 

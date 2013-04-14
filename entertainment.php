@@ -55,7 +55,7 @@
               <a href="world.php">World News</a> 
             </li>
             <li>
-              <a href="moblie.php">Mobile</a> 
+              <a href="mobile.php">Mobile</a> 
             </li>
             <li>
               <a href="programming.php">Programming</a> 
